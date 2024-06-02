@@ -1,0 +1,149 @@
+@media only screen and (min-width:768px) {
+    .divitem{
+        width: 50%;
+    }
+    .content h1{
+
+        font-size: 52px;
+        width: 85vw;
+    }
+    .blogsection{
+        padding: 150px 20px;
+    }
+    .footer input{
+        width: 300px;
+    }
+    .footer form{
+        width: 300px;
+    }
+}
+@media only screen and (min-width:991px) {
+    .container{
+        height: 1000px;
+        width: 100vw;
+    }
+    .topicon{
+        display: flex;
+    }
+    .navlink{
+        display: flex;
+    }
+    .outer1 .topfull{
+       opacity: 1;
+       visibility: visible;
+       box-shadow: 0px 0px 10px 0px rgb(161, 160, 160);
+    }
+    .navigation{
+        position: relative;
+        width: 80vw;
+    }
+    .stick{
+        position: fixed !important;
+        top: 0 !important;
+        left: 143px;
+    }
+    #ham{
+        display: none;
+    }
+    .togglenav{
+        display: none;
+    }
+    .content h1{
+
+        font-size: 82px;
+        width: 1000px;
+    }
+    .content{
+        padding: 150px 300px;
+        
+    }
+    .hero{
+        max-width: 100vw;
+    }
+    .heroleft{
+        width: 70%;
+        justify-content: space-evenly;
+
+        padding: 100px 150px;
+        /* padding:0px 0px 0px 150px; */
+
+    }
+    .heroleft p{
+        margin: 20px 0px;
+       
+    }
+    .heroleft h1{
+       
+        margin: 15px 0px;
+        font-size: 42px;
+    }
+    .heroright{
+        display: block;
+    }
+    .cat1{
+        flex-direction: row;
+    }
+    .divitem{
+        width: 25%;
+    }
+    .videosection{
+        flex-direction: row;
+        padding: 100px 170px;
+    }
+    .videoleft{
+        padding-right: 40px;
+    }
+    .videobg{
+        height: 350px;
+        width: 900px !important;
+
+    }
+    #slidebar{
+        height: 800px;
+        padding: 30px;
+    }
+    .slidebarOver{
+        gap: 100px;
+    }
+    .auto{
+        margin-right: 35px;
+
+    }
+    .slidebarOver>div{
+        width: 80%;
+        padding: 12px 40px;
+    }
+    .blogitem{
+        width: 30%;
+    }
+    .blogimg{
+        width:350;
+        height:300px ;
+    }
+    .blogs{
+        flex-direction: row;
+        gap: 40px;
+    }
+    .blogsection{
+        padding: 150px 150px;
+        width: 100vw;
+    }
+    footer{
+        
+        padding: 100px 130px;
+
+    }
+    .footer input{
+        width: 300px;
+    }
+    .footer{
+        flex-direction: row;
+    }
+    .footer>div{
+        width: 400px;
+    }
+    .footer form{
+        width: 300px;
+    }
+
+}
